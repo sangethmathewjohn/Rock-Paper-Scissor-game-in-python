@@ -16,16 +16,16 @@
     com = random.choice(lists) 
     
     print(f"\nComputer\'s choice : {com}") 
-    print(f"Your choice       : {player}")
+    print(f"Your choice       : {player}\o")
     
     if player == com:
       print("draw")
     elif (player == "r") and (com=="s"):
-      print("you win")
+      print("you won")
     elif (player == "s") and (com=="p"):
-      print("you win")
+      print("you won")
     elif (player == "p") and (com=="r"):
-      print("you win")
+      print("you won")
     else:
         print("you loose")
 
