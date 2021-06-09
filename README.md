@@ -16,7 +16,7 @@
     com = random.choice(lists) 
     
     print(f"\nComputer\'s choice : {com}") 
-    print(f"Your choice        : {player}")
+    print(f"Your choice       : {player}")
     
     if player == com:
       print("draw")
