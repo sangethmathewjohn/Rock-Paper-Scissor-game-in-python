@@ -1,6 +1,6 @@
 # Rock-Paper-Scissor-game-in-python
 
-## Simple rock paper scissor game using random function
+### Simple rock paper scissor game using random function.
 
 ## Program
 
