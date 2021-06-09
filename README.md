@@ -5,10 +5,14 @@
 ## Program
 
     import random
-    player = input("enter your choice r,p,s:\n")
+    
+    print("welcome to rock paper scissors game")
+    print("Enter r for Rock\nEnter p for Paper\nEnter s for scissors")
+    player = input("Enter your choice r,p,s:\n")
     lists=["r","p","s"]
     com = random.choice(lists) 
     print(f"computer:{com}")
+    
     if player == com:
       print("draw")
     elif (player == "r") and (com=="s"):
