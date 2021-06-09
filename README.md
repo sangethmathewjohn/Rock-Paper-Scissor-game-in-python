@@ -2,7 +2,7 @@
 
 ## Simple rock paper scissor game using random function
 
-##Program
+## Program
 
     import random
     player = input("enter your choice r,p,s:\n")
