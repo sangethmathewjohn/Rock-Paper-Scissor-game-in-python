@@ -7,11 +7,15 @@
     import random
     
     print("welcome to rock paper scissors game")
-    print("Enter r for Rock\nEnter p for Paper\nEnter s for scissors")
-    player = input("Enter your choice r,p,s:\n")
+    
+    print("\nEnter r for Rock\nEnter p for Paper\nEnter s for scissors\n")
+    
+    player = input("Enter your choice r,p,s:")
     lists=["r","p","s"]
     com = random.choice(lists) 
-    print(f"computer:{com}")
+    
+    print(f"Computer\'s choice : {com}") 
+    print(f"Your choice : {player}")
     
     if player == com:
       print("draw")
