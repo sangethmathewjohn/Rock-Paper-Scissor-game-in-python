@@ -3,6 +3,7 @@
 ## Simple rock paper scissor game using random function
 
 ##Program
+
     import random
     player = input("enter your choice r,p,s:\n")
     lists=["r","p","s"]
