@@ -6,15 +6,15 @@
 
     import random
     
-    print("welcome to rock paper scissors game")
+    print("Welcome to Rock Paper Scissor Game")
     
     print("\nEnter r for Rock\nEnter p for Paper\nEnter s for scissors\n")
     
-    player = input("Enter your choice r,p,s:")
+    player = input("\nEnter your choice r,p,s : ")
     lists=["r","p","s"]
     com = random.choice(lists) 
     
-    print(f"Computer\'s choice : {com}") 
+    print(f"\nComputer\'s choice : {com}") 
     print(f"Your choice : {player}")
     
     if player == com:
